@@ -1,0 +1,36 @@
+.popup-form-container{
+  width: 90%;
+  overflow: scroll;
+}
+.pop-up-container h2{
+  margin: 1rem 0 0 1.5rem;
+}
+.popup-form{
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+.popup-form-input{
+  margin-bottom: 1rem;
+  padding: 1rem;
+  border-radius: 0.1rem;
+  border: none;
+  color: var(--clr-darkest);
+  font-size: 1rem;
+}
+.popup-form-input::placeholder{
+  color: var(--clr-grey);
+}
+.popup-form label{
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+.pop-up-container button{
+  margin-bottom: 1rem;
+}
+textarea{
+  min-height: 10rem;
+  font-family: inherit;
+  font-size: inherit;
+}

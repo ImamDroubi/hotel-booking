@@ -1,0 +1,10 @@
+.logo{
+  display: flex;
+  align-items: center;
+}
+.logo a{ 
+  color: white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 1.5rem;
+  text-decoration: none;
+}

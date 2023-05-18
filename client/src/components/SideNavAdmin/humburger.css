@@ -1,0 +1,18 @@
+.humburger{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 40% !important;
+  z-index: 1;
+}
+.humburger-container{
+  position: relative;
+}
+.close-humburger{
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: white;
+  font-size: 2rem;
+  cursor: pointer;
+}

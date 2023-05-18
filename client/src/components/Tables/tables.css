@@ -1,0 +1,40 @@
+.users-content table{
+  width: 100%;
+  text-align: center;
+  font-size: 1rem;
+}
+
+th,td{
+  padding: 0.5rem;
+  
+}
+.users-content table th{
+  border-bottom: 0.2rem solid var(--clr-darkest);
+}
+td{
+  border-bottom: 0.1rem solid var(--clr-dark);
+}
+td input, td select{
+  text-align: center;
+  background: none;
+  border: none;
+  padding: 0.5rem;
+  font-size: 0.9rem;
+}
+td input::placeholder{
+  color: var(--clr-darkest);
+  opacity: 1;
+}
+.delete-table-item{
+  color: var(--clr-grey);
+  font-size: 1.7rem;
+  cursor: pointer;
+}
+.edit-table-item{
+  color: var(--clr-grey);
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+.delete-table-item:hover,.edit-table-item:hover{
+  color: var(--clr-darkest);
+}

@@ -1,0 +1,58 @@
+.reservations-container{
+  animation-name: up;
+  animation-duration: 1s;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.reservation-card{
+  width: 95%;
+  background-color: var(--clr-light);
+  padding: 1rem;
+  border-radius: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  color: var(--clr-darkest);
+  margin-bottom: 1rem;
+}
+.reservation-left-section{
+  width: 70%;
+}
+.reservation-left-section h3 , .reservation-right-section h3{
+  font-size: 1.5rem;
+}
+.reservation-left-section h3{
+  cursor: pointer;
+}
+.reservation-left-section h3:hover{
+  text-decoration: underline;
+}
+.reservation-left-section p{
+  font-size: 1.2rem;
+  margin: 0.5rem 0;
+}
+.reservation-right-section{
+  width: 15%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between
+}
+.cancel-reservation{
+  margin: 0.5rem 0;
+  background: none;
+  border: 0.1rem solid var(--clr-darkest);
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border-radius: 1rem;
+  color: var(--clr-darkest);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.cancel-reservation:hover{
+  background-color: var(--clr-darkest);
+  color: var(--clr-silver);
+}

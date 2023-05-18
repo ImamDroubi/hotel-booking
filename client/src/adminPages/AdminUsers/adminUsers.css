@@ -1,0 +1,112 @@
+.admin-pages-container{
+  background-color: var(--clr-silver);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+}
+.admin-pages-sidebar{
+  height: 100vh;
+  width: 18%;
+  background-color: var(--clr-darkest);
+  filter: drop-shadow(2px 2px 5px var(--clr-grey));
+}
+.side-bar-container{
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10%;
+}
+
+.admin-pages-content{
+  width: 82%;
+}
+
+.users-content-container{
+  width: 90%;
+  margin: auto;
+  margin-top: 2rem;
+}
+@media screen and (max-width:992px) {
+  .admin-pages-content{
+    padding-left: 3rem;
+    width: 100%;
+  }
+  .admin-pages-sidebar{
+    width: max-content;
+  }
+  .users-content-container{
+    width: 95%;
+  }
+}
+.users-page-top{
+  display: flex;
+  justify-content: space-between;
+}
+.users-page-top li a{
+  color: var(--clr-darkest);
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+.users-content{
+  margin-top: 3rem;
+  width: 100%;
+
+}
+.table-container{
+  max-height: 60vh;
+  overflow: auto;
+}
+
+.control-buttons{
+  width: 100%;
+  display: flex;
+  justify-content:space-between;
+  margin-top: 2rem;
+  filter: drop-shadow(2px 2px 2px var(--clr-grey));
+}
+.control-buttons button{
+  color: white;
+  padding: 0.8rem;
+  border-radius: 0.5rem;
+  font-size: 0.8rem;
+  cursor: pointer;
+  border: none;
+}
+.right-side-buttons button{
+  margin-left: 1rem;
+}
+.control-buttons button:disabled{
+  background-color: var(--clr-grey);
+  cursor: default;
+}
+.cancel-button{
+  background-color: var(--clr-grey);
+}
+.cancel-button:hover{
+  background-color: var(--clr-grey-hover);
+}
+.add-new-button{
+  background-color: var(--clr-dark);
+}
+.add-new-button:hover{
+  background-color: var(--clr-light);
+}
+.save-changes-button{
+  background-color: var(--clr-darkest);
+}
+.save-changes-button:hover{
+  background-color: var(--clr-light);
+}
+
+
+/* humburger menu stuff */
+.humburger-controller{
+  position: absolute;
+  top: 2.1rem;
+  left: 1rem;
+  font-size: 2rem;
+  color: var(--clr-darkest);
+  cursor: pointer;
+}

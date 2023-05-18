@@ -1,0 +1,57 @@
+.deletion-pop-up-container{
+  height: 40vh;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  background-color: var(--clr-silver);
+  border-radius: 0.5rem;
+  position: relative;
+}
+.close-deletion-pop-up-button{
+  position: absolute;
+  top: -1rem;
+  right: -1rem;
+  border-radius: 50%;
+  cursor: pointer;
+  width: 3rem;
+  height: 3rem;
+  border: none;
+  color: white;
+  font-size: 1rem;
+  background-color: var(--clr-darkest);
+}
+.close-deletion-pop-up-button:hover{
+  background-color: var(--clr-light);
+  border: none;
+}
+.deletion-pop-up-container p{
+  font-size: 2rem;
+  text-align: center;
+}
+.deletion-popup-buttons{
+  display: flex;
+  width: 30%;
+  justify-content: space-between;
+}
+.deletion-popup-buttons button{
+  padding: 1rem;
+  border: none;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  color: white;
+  cursor: pointer;
+}
+.deletion-confirm-button{
+  background-color: var(--clr-bright);
+}
+.deletion-confirm-button:hover{
+  background-color: var(--clr-light);
+}
+.deletion-cancel-button{
+  background-color: var(--clr-grey);
+}
+.deletion-cancel-button:hover{
+  background-color: var(--clr-grey-hover);
+}

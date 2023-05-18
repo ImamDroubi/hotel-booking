@@ -1,0 +1,33 @@
+.nav , .logged-nav{
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  align-items: center;
+  width: max-content;
+}
+
+.nav li a , .logged-nav li a{
+  color: white;
+  text-decoration: none;
+  padding: 0.7rem;
+  margin-left: 0.5rem;
+  font-size: 1.2rem;
+  font-weight: 300;
+  cursor: pointer;
+}
+.logged-nav li a:hover{
+  text-decoration: underline;
+}
+.nav li a:hover{
+  /* text-decoration: underline; */
+  transition: 0.1s;
+  background-color: var(--clr-light);
+  border: 0.2rem solid var(--clr-dark);
+  border-radius: 0.2rem;
+}
+.user-navigation-item a{
+  text-decoration: none;
+}
+.user-navigation-item a:hover{
+  text-decoration: underline;
+}

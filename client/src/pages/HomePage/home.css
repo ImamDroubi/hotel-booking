@@ -1,0 +1,86 @@
+
+
+.background{
+  position: fixed;
+  width: 100vw;
+  z-index: -1;
+}
+@media screen and (max-width:996px) {
+  .background{
+    width: auto;
+    min-height: 100vh;
+    top: -30rem;
+  }
+  .container{
+    width: 90%;
+  }
+  
+}
+.container{
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+.top{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  height: 5rem;
+
+}
+
+.main{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 80vh;
+  justify-content: center;
+  align-items: center;
+}
+@keyframes up{
+  from{
+    translate: 0 1rem;
+  }
+  to{
+    translate: 0 0;
+  }
+}
+.hero-text{
+  color: white;
+  font-size: 5rem;
+  animation-name: up;
+  animation-duration: 1s;
+  font-weight: 600;
+}
+.slogan{
+  color: white;
+  font-size: 2rem;
+  animation-name: up;
+  animation-duration: 1s;
+  font-weight: 400;
+}
+.main-button{
+  animation-name: up;
+  animation-duration: 1s;
+  font-family: inherit;
+  padding: 1rem 2rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+  background-color: var(--clr-light);
+  border-radius: 1.5rem;
+  font-size: 1.2rem;
+  margin: 2rem 0 1rem 0 ;
+  font-weight: 500;
+  color: white;
+
+}
+.home-button{
+  animation-name: up;
+  animation-duration: 1s;
+  text-decoration: none;
+}
+.main-button:hover{
+  background-color: var(--clr-bright);
+}

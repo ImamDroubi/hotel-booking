@@ -1,0 +1,24 @@
+.admin-side-nav{
+  list-style: none;
+  margin-top: 1rem;
+  border-top: 0.2rem solid white;
+  width: 100%;
+}
+
+.side-nav-item{
+  margin: 1rem;
+}
+.selected{
+  background-color: var(--clr-light);
+  border-radius: 0.5rem;
+}
+.side-nav-item a{
+  text-decoration: none;
+  color: white;
+  display: block;
+  padding: 1rem 0.5rem;
+  border-radius: 0.5rem;
+}
+.side-nav-item a:hover{
+  background-color: var(--clr-light);
+}
